@@ -35,6 +35,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-nav'
   gem 'rails-controller-testing'
+  gem 'faker'
 end
 
 group :development do
