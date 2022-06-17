@@ -1,0 +1,7 @@
+
+<% if @a_movie.present? %>
+  <h1> <%= @a_movie.title %> </h1>
+  <p> <%= @a_movie.description %> </p>
+<% else %>
+  <h1> Sorry this movie doenst exist </h1>
+<% end %>

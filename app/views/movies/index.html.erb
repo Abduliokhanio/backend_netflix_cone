@@ -1,1 +1,8 @@
 <h1>movies</h1>
+
+<dl>
+<% for i in @all_movies do %>
+  <dt><%= i.title %></dt>
+  <dd><%= i.description %></dd>
+<% end %>
+<dl>
