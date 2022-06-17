@@ -8,6 +8,8 @@ class MoviesController < ApplicationController
     @a_movie = Movie.where(id: params[:id]).first 
   end
 
+  def new
+   
+  end
   
-
 end
